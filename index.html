@@ -91,7 +91,7 @@
                 <a href="#submission" class="nav-link">Call for Papers</a>
                 <a href="#dates" class="nav-link">Dates &amp; Programme</a>
                 <a href="#tracks" class="nav-link">Tracks</a>
-                <a href="#workshops" class="nav-link">Events</a>
+                <a href="#workshops" data-workshop class="nav-link">Events</a>
                 <a href="#registration" class="nav-link">Registration</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
@@ -110,7 +110,7 @@
                 <a href="#submission" class="nav-link py-3">Call for Papers</a>
                 <a href="#dates" class="nav-link py-3">Dates &amp; Programme</a>
                 <a href="#tracks" class="nav-link py-3">Tracks</a>
-                <a href="#workshops" class="nav-link py-3">Events</a>
+                <a href="#workshops" data-workshop class="nav-link py-3">Events</a>
                 <a href="#registration" class="nav-link py-3">Registration</a>
                 <a href="#contact" class="nav-link py-3">Contact</a>
                 <button type="button" data-open="cmtModal" class="btn-primary mt-3 sm:hidden">Submit Paper</button>
@@ -197,7 +197,7 @@
                 <div class="flex flex-col-reverse px-2 lg:px-8 lg:first:pl-0"><dt class="text-sm text-muted">days of sessions, hybrid format</dt><dd class="font-serif text-4xl font-semibold tabular-nums text-ink">3</dd></div>
                 <div class="flex flex-col-reverse px-2 lg:px-8 lg:first:pl-0"><dt class="text-sm text-muted">research tracks</dt><dd class="font-serif text-4xl font-semibold tabular-nums text-ink">6</dd></div>
                 <div data-workshop class="flex flex-col-reverse px-2 lg:px-8 lg:first:pl-0"><dt class="text-sm text-muted">hands-on workshops</dt><dd class="font-serif text-4xl font-semibold tabular-nums text-ink">3</dd></div>
-                <div class="flex flex-col-reverse px-2 lg:px-8 lg:first:pl-0"><dt class="text-sm text-muted">Robotrail prize pool</dt><dd class="font-serif text-4xl font-semibold tabular-nums text-ink">₹10,000</dd></div>
+                <div data-workshop class="flex flex-col-reverse px-2 lg:px-8 lg:first:pl-0"><dt class="text-sm text-muted">Robotrail prize pool</dt><dd class="font-serif text-4xl font-semibold tabular-nums text-ink">₹10,000</dd></div>
             </dl>
         </section>
 
@@ -302,7 +302,7 @@
                         <h4 class="mt-2 font-serif text-xl font-semibold text-ink">Inauguration &amp; keynotes</h4>
                         <p class="mt-2 text-sm leading-relaxed">Inaugural ceremony, plenary keynotes on RISC-V and open silicon toolchains, and technical paper tracks I and II.</p>
                     </div>
-                    <div class="card">
+                    <div data-workshop class="card">
                         <p class="font-mono text-xs font-semibold uppercase tracking-wide text-brand-text">Day 02 / Sept 19</p>
                         <h4 class="mt-2 font-serif text-xl font-semibold text-ink">Robotrail 2026<span data-workshop> &amp; workshops</span></h4>
                         <p class="mt-2 text-sm leading-relaxed">The flagship Robotrail 2026 autonomous robot challenge<span data-workshop>, with parallel hands-on workshops on Vivado, drones and silicon reverse engineering</span>.</p>
@@ -413,7 +413,7 @@
             </section>
 
             <!-- Workshops & Competitions -->
-            <section id="workshops" class="reveal scroll-mt-24" aria-labelledby="events-title">
+            <section id="workshops" data-workshop class="reveal scroll-mt-24" aria-labelledby="events-title">
                 <div class="mb-10 border-b border-line pb-5">
                     <span class="eyebrow">05 / Hands-on learning</span>
                     <h2 id="events-title" class="h2"><span data-workshop>Workshops &amp; </span>Competitions</h2>
@@ -584,7 +584,7 @@
                                         <td class="px-6 py-4">Per session, hands-on track</td>
                                         <td class="px-6 py-4 text-right text-base font-semibold tabular-nums text-ink">₹400</td>
                                     </tr>
-                                    <tr>
+                                    <tr data-workshop>
                                         <th scope="row" class="px-6 py-4 font-semibold text-ink">Robotrail competition</th>
                                         <td class="px-6 py-4">Per team (1–2 members)</td>
                                         <td class="px-6 py-4 text-right text-base font-semibold tabular-nums text-ink">₹400</td>
